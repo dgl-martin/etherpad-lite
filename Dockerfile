@@ -13,7 +13,7 @@ LABEL maintainer="Etherpad team, https://github.com/ether/etherpad-lite"
 #
 # EXAMPLE:
 #   ETHERPAD_PLUGINS="ep_codepad ep_author_neat"
-ARG ETHERPAD_PLUGINS="ep_align ep_author_neat ep_comments_page ep_embedded_hyperlinks2 ep_font_size ep_headings2 ep_pad-lister ep_slideshow ep_themes_ext ep_webrtc"
+ARG ETHERPAD_PLUGINS="ep_align ep_author_neat ep_comments_page ep_embedded_hyperlinks2 ep_font_size ep_headings2 ep_slideshow ep_themes_ext ep_webrtc"
 
 # By default, Etherpad container is built and run in "production" mode. This is
 # leaner (development dependencies are not installed) and runs faster (among
